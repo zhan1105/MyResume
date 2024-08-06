@@ -13,7 +13,7 @@ typealias Function = (title: String, footer: String)
 
 struct Resume {
     static let shared = Resume()
-    let name     = "詹紹郁"
+    let name     = "詹紹郁，測試測試"
     let title    = "iOS Developer"
     let location = "台中市北區"
     let graduate = "勤益科技大學-電子工程系"
