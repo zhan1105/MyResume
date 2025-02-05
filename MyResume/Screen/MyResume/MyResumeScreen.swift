@@ -98,7 +98,7 @@ extension MyResumeScreen {
                 .padding(.leading, 5)
 
             
-            HStack(spacing: 50){
+            HStack(){
                 ForEach(myProfile.skills, id: \.self) { skill in
                     mySkillsView(picture: skill)
                 }
@@ -156,6 +156,7 @@ extension MyResumeScreen {
                 .aspectRatio(contentMode: .fit)
             Text(picture)
         }
+        .frame(maxWidth: .infinity)
     }
 }
 
