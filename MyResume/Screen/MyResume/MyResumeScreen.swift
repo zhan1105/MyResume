@@ -151,7 +151,7 @@ extension MyResumeScreen {
     func mySkillsView(picture: String) -> some View {
        
         VStack {
-            Image(picture)
+            Image(picture.lowercased())
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             Text(picture)
@@ -162,4 +162,5 @@ extension MyResumeScreen {
 #Preview {
     MyResumeScreen()
 }
+
 
