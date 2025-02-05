@@ -157,6 +157,7 @@ extension MyResumeScreen {
             Text(picture)
         }
         .frame(maxWidth: .infinity)
+        .padding(.horizontal, 5)
     }
 }
 
